@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1286</width>
+    <height>838</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Laboratorio de Táctica por Alexander Narváez</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCheckBox" name="check1_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>290</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>El caballo es el rey del ataque doble por sus capacidades de movimiento. Es muy poderoso para atacar piezas de gran valor como dos torres, torre y dama o dama y rey.</string>
+    </property>
+    <property name="text">
+     <string>Horquilla</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>350</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Consiste en forzar a una pieza rival a ocupar una casilla que resulta perjudicial, por lo común, para su propio rey. Es una forma eficaz de eliminar la coordinación de las fuerzas contrarias.</string>
+    </property>
+    <property name="text">
+     <string>Bloqueo</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>490</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Consiste en atraer favorablemente una pieza rival (por lo común el rey) a una casilla en particular. La atracción tiene una gran semejanza con el tema de la desviación</string>
+    </property>
+    <property name="text">
+     <string>Atracción</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>170</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Consiste en una pieza que ataca a otra que no puede ser movida o no conviene mover porque si esto se hace, resulta en un jaque o en una captura ventajosa para la pieza que ataca</string>
+    </property>
+    <property name="text">
+     <string>Clavada</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_9">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>60</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Consiste en forzar a una pieza rival a dejar su posición actual, dando a nuestras piezas el acceso a casillas o líneas importantes.</string>
+    </property>
+    <property name="text">
+     <string>Desviación</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ataque Directo</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>230</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Cuando una pieza o una casilla está atacada por tantas piezas como defensores, la balanza está equilibrada y el objeto en cuestión está defendido. Todo parece estar en orden, pero no es así.
+La pieza o piezas defensoras están atadas a la pieza o la casilla defendida y pierden parte de su movilidad porque está obligadas a defender. Y cuanto más importante es el objeto defendido, peor.
+Eso tiene como consecuencia que, si la pieza defensora es atacada, indirectamente, también se está atacando al primer objetivo.</string>
+    </property>
+    <property name="text">
+     <string>Atadura</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_7">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>420</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>El procedimiento táctico por el que las piezas propias perturbadoras abandonan su sitio se llama desalojo (o despeje) de casillas o líneas. Se trata de levantar el bloqueo al que uno mismo se ha sometido.</string>
+    </property>
+    <property name="text">
+     <string>Desalojo</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Se produce cuando al mover una pieza para atacar un objetivo adversario se libera la acción de otra pieza propia la que aparece atacando a su vez, un nuevo objetivo. Este Tema se manifiesta como un Ataque Doble, realizado con dos piezas</string>
+    </property>
+    <property name="text">
+     <string>En Descubierta</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_10">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>100</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Eliminación directa de la pieza que controla líneas o casillas importantes en el tablero. Tiene semejanza con la desviación, pero en este caso la pieza contraria es capturada y no desviada.</string>
+    </property>
+    <property name="text">
+     <string>Eliminación Pieza Defensora</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_11">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>170</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Quitar movimiento a una pieza dle rival o diezmarle su movilidad d emanera crítica</string>
+    </property>
+    <property name="text">
+     <string>Constreñimiento</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_12">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>220</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Mediante este recurso táctico, la conexión entre dos o más piezas del oponente es obstruida, impidiendo el acceso a una casilla o línea vital.</string>
+    </property>
+    <property name="text">
+     <string>Apertura de Líneas</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_13">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>280</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Es un jaque realizado por dos piezas simultáneamente.</string>
+    </property>
+    <property name="text">
+     <string>Jaque  Doble</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_14">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>340</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Movimiento inesperado que plantea una fuerte amenaza y obliga a una respuesta inmediata.</string>
+    </property>
+    <property name="text">
+     <string>Jugada Intermedia</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_15">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>410</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Una táctica que incluye la coronación de un peón. Esto a menudo implica otras tácticas adicionales, cada una de las cuales es parte de un objetivo general: el de coronar el peón.&lt;br&gt; Ese peón a menudo dará resultados decisivos.</string>
+    </property>
+    <property name="text">
+     <string>Coronación de Peón</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_16">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>480</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Sobrecarga </string>
+    </property>
+    <property name="text">
+     <string>Sobrecarga</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_17">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>560</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Una situación en la que un jugador puede dar jaque al rey rival para siempre, pero no puede darle mate. El jaque perpetuo es un tipo de posición de tablas. Cuando se da el jaque perpetuo, los jugadores suelen acordar tablas o, si no, se repite la misma posición tres veces, concluyendo en tablas por la regla de la &quot;triple repetición&quot;.</string>
+    </property>
+    <property name="text">
+     <string>Jaque Perpetuo</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check1_18">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>540</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>El hecho de sacrificar material (ya sea con un cambio que pierde puntos o simplemente perdiendo una pieza o peón a cambio de nada) con el objetivo de lograr algo a cambio. Por ejemplo, un jugador puede sacrificar la dama para despejar una casilla para un caballo desde la cual este puede dar jaque mate al oponente. También se pueden hacer sacrificios más estratégicos, como por ejemplo sacrificar un peón para ganar tiempo para desarrollar, o sacrificar una pieza para destruir el escudo de peones del rey rival.</string>
+    </property>
+    <property name="text">
+     <string>Sacrificio</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTime">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>600</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>LcdD</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 24pt &quot;LcdD&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Tiempo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnStartTimer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>730</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Iniciar reloj</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEndTimer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>760</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Parar reloj</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPauseTimer">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>730</y>
+      <width>91</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pausar reloj</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnResetTimer">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>760</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reiniciar reloj</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>640</y>
+      <width>181</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+color:rgb(0, 255, 0);
+border-color: rgb(85, 255, 127);
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnResetLines">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>730</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Resetear Todo</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBlue">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>770</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>El hecho de sacrificar material (ya sea con un cambio que pierde puntos o simplemente perdiendo una pieza o peón a cambio de nada) con el objetivo de lograr algo a cambio. Por ejemplo, un jugador puede sacrificar la dama para despejar una casilla para un caballo desde la cual este puede dar jaque mate al oponente. También se pueden hacer sacrificios más estratégicos, como por ejemplo sacrificar un peón para ganar tiempo para desarrollar, o sacrificar una pieza para destruir el escudo de peones del rey rival.</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>Azul</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBlack">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>770</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>El hecho de sacrificar material (ya sea con un cambio que pierde puntos o simplemente perdiendo una pieza o peón a cambio de nada) con el objetivo de lograr algo a cambio. Por ejemplo, un jugador puede sacrificar la dama para despejar una casilla para un caballo desde la cual este puede dar jaque mate al oponente. También se pueden hacer sacrificios más estratégicos, como por ejemplo sacrificar un peón para ganar tiempo para desarrollar, o sacrificar una pieza para destruir el escudo de peones del rey rival.</string>
+    </property>
+    <property name="text">
+     <string>Negro</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkRed">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>770</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>El hecho de sacrificar material (ya sea con un cambio que pierde puntos o simplemente perdiendo una pieza o peón a cambio de nada) con el objetivo de lograr algo a cambio. Por ejemplo, un jugador puede sacrificar la dama para despejar una casilla para un caballo desde la cual este puede dar jaque mate al oponente. También se pueden hacer sacrificios más estratégicos, como por ejemplo sacrificar un peón para ganar tiempo para desarrollar, o sacrificar una pieza para destruir el escudo de peones del rey rival.</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Rojo</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnStats">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>770</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Ir a la ventana de estadísticas &lt;br&gt; del set de ejercicios realizados</string>
+    </property>
+    <property name="text">
+     <string>Ver estadísticas</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCorrectos">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>690</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>12</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Correctos: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblFalls">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>720</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Fallidos:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnOk">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>700</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Pullse aquí si el ejerccio fue bien realizado</string>
+    </property>
+    <property name="text">
+     <string>Ok</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnOff">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>730</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Pullse aquí si el ejerccio No fue bien realizado</string>
+    </property>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1286</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuT_ctica">
+    <property name="title">
+     <string>Táctica</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="mnuStats"/>
+   </widget>
+   <widget class="QMenu" name="menusalir">
+    <property name="title">
+     <string>Salir</string>
+    </property>
+   </widget>
+   <addaction name="menuT_ctica"/>
+   <addaction name="menusalir"/>
+  </widget>
+  <action name="mnuStats">
+   <property name="text">
+    <string>Ver gráfica estadística</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
